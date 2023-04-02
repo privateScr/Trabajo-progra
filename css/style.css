@@ -1,0 +1,96 @@
+.logo2{
+    width: 100px;;
+}
+
+.logo{
+    width: 50px;
+    margin-right: 10px;
+}
+.thumbnail-product{
+    height: 150px !important;
+    max-width: 150px !important;
+}
+.real-price{
+    text-decoration: line-through;
+}
+.ofert{
+    color: black;
+}
+td{
+    border: 1px solid orange !important;
+
+}
+
+/* footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-md-4 {
+    width: 33.33%;
+    padding: 0 20px;
+  }
+  
+  h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .redes-sociales {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .redes-sociales li {
+    margin-right: 10px;
+  }
+  
+  .redes-sociales a img {
+    width: 40px;
+    height: 40px;
+    transition: all 0.3s ease;
+  }
+  
+  .redes-sociales a:hover img {
+    transform: scale(1.2);
+  }
+  
+  .copy {
+    background-color: #222;
+    padding: 20px 0;
+  }
+  
+  .copy p {
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* imagen nosotros  */
+  .img-img{
+    height: 400px !important;
+    max-width: 400x !important;
+    
+}

@@ -1,0 +1,622 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Venta de productos animales">
+    <meta name="author" content="Grupo n1">
+    <title>PetMania</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="icon" href="img/Perro icono.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/java.js"></script>
+</head>
+<body>
+<!-- NAV BAR SUPERIOR CON LOGO -->
+    <header id="header">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient">
+        <div class="container-fluid">
+            <img class="logo" src="img/logo.png" alt="">
+            <a class="navbar-brand" href="Inicio.html">PetMania</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Inicio.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="Nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="Registro.html">Registro</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="Ingresar.html">Iniciar Sesion</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="carro.html">Carro de compras</a>
+            </li>
+            </ul>
+            <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+        </div>
+        </div>
+    </nav>
+    </header>
+
+    <!-- Contenido de la pagina principal -->
+    <main role="main">
+        <div class="container">
+            <section class="text-center">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/carrusel1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/carrusel2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/carrusel3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- PRODUCTOS -->
+    <div class="album py-2 bg-light">
+        <div class="container">
+            <div id="product-item" class="row">
+                <div class="col-sm-12 col-md-6 col col-lg-4 col-xl-3">
+                    <div class="card mb-4 box-shadow">
+                        <div class="text-center">
+                            <img class="card-img-top thumbnail-product" src="img/comida de perro2.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                <div class="lead text-secondary fw-bold">
+                                    DISPONIBLE
+                                </div>
+                            <br>
+                            <div class="lead text-dark">
+                                <span class="real fw-bold">
+                                    $29.990
+                                </span>
+                            </div>
+                            <br>
+                            Proplan Adulto Razas Medianas alimento para perro
+                            <br>
+                            <b>Descripcion</b>
+                            <div class="text-truncate">
+                                Provee nutrición de avanzada que ayuda a los perros de razas medianas de 1 a 7 años de edad a mantenerse fuertes y llenos de vitalidad.
+                                Con carne de pollo como ingrediente #1, fuente de proteína de alto valor biológico y elevada digestibilidad que entrega un óptimo nivel de nutrientes de manera eficaz. 
+                                Con Optihealth.
+                                Tecnología exclusiva compuesto por una mezcla de nutrientes que incluye spirulina, una microalga natural con beneficiosas propiedades para la salud general de los perros, cuya eficacia ha sido científicamente probada
+                            </div>
+                            <br>
+                            <b>En Stock 9 unidades</b>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        Comprar
+                                    </button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        Agregar Al Carrito
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                </div>
+                <div class="col-sm-12 col-md-6 col col-lg-4 col-xl-3">
+                    <div class="card mb-4 box-shadow">
+                        <div class="text-center">
+                            <img class="card-img-top thumbnail-product" src="img/comida de perro1.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                <div class="lead text-secondary fw-bold">
+                                    EN OFERTA
+                                </div>
+                            <br>
+                            <div class="lead text-danger">
+                                <span class="real-price fw-bold">
+                                    $60.000
+                                </span>
+                                <span class="ofert fw-bold">
+                                    $36.990
+                                </span>
+                            </div>
+                            <br>
+                            Taste Of The Wild Pacific Stream alimento para perro
+                            <br>
+                            <b>Descripcion</b>
+                            <div class="text-truncate">
+                                Comida Holística Para Perros Adultos
+                            </div>
+                            <br>
+                            <b>En Stock 6 unidades</b>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        Comprar
+                                    </button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        Agregar Al Carrito
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                </div>
+                <div class="col-sm-12 col-md-6 col col-lg-4 col-xl-3">
+                    <div class="card mb-4 box-shadow">
+                        <div class="text-center">
+                            <img class="card-img-top thumbnail-product" src="img/comida de gato4.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                <div class="lead text-secondary fw-bold">
+                                    EN OFERTA
+                                </div>
+                            <br>
+                            <div class="lead text-dark">
+                                <span class="real fw-bold">
+                                    $33.990
+                                </span>
+                            </div>
+                            <br>
+                            Proplan Kitten Optistart alimento para gato
+                            <br>
+                            <b>Descripcion</b>
+                            <div class="text-truncate">
+                                Alimento súper premium para gatos cachorros (gatitos)
+                            </div>
+                            <br>
+                            <b>En Stock 26 unidades</b>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        Comprar
+                                    </button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        Agregar Al Carrito
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                </div>
+                <div class="col-sm-12 col-md-6 col col-lg-4 col-xl-3">
+                    <div class="card mb-4 box-shadow">
+                        <div class="text-center">
+                            <img class="card-img-top thumbnail-product" src="img/Comida de perro3.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                <div class="lead text-secondary fw-bold">
+                                    EN OFERTA
+                                </div>
+                            <br>
+                            <div class="lead text-danger">
+                                <span class="real-price fw-bold">
+                                    $40.000
+                                </span>
+                                <span class="ofert fw-bold">
+                                    $27.990
+                                </span>
+                            </div>
+                            <br>
+                            Proplan Sensitive Skin Cordero Y Arroz
+                            <br>
+                            <b>Descripcion</b>
+                            <div class="text-truncate">
+                                Alimento completo para perros adultos
+                            </div>
+                            <br>
+                            <b>En Stock 5 unidades</b>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        Comprar
+                                    </button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        Agregar Al Carrito
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                </div>
+                <div class="col-sm-12 col-md-6 col col-lg-4 col-xl-3">
+                    <div class="card mb-4 box-shadow">
+                        <div class="text-center">
+                            <img class="card-img-top thumbnail-product" src="img/comida de perro4.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                <div class="lead text-secondary fw-bold">
+                                    EN OFERTA
+                                </div>
+                            <br>
+                            <div class="lead text-dark">
+                                <span class="real fw-bold">
+                                    $9.990
+                                </span>
+                            </div>
+                            <br>
+                            Proplan Adulto Latas - Perro
+                            <br>
+                            <b>Descripcion</b>
+                            <div class="text-truncate">
+                                Alimento humedo para perros
+                            </div>
+                            <br>
+                            <b>En Stock 37 unidades</b>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        Comprar
+                                    </button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        Agregar Al Carrito
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                </div>
+                <div class="col-sm-12 col-md-6 col col-lg-4 col-xl-3">
+                    <div class="card mb-4 box-shadow">
+                        <div class="text-center">
+                            <img class="card-img-top thumbnail-product" src="img/comida de gato3.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                <div class="lead text-secondary fw-bold">
+                                    EN OFERTA
+                                </div>
+                            <br>
+                            <div class="lead text-dark">
+                                <span class="real fw-bold">
+                                    $27.990
+                                </span>
+                            </div>
+                            <br>
+                            Taste Of The Wild Rocky Mountain Gato alimento para gato
+                            <br>
+                            <b>Descripcion</b>
+                            <div class="text-truncate">
+                                Alimento natural para tu gato
+                            </div>
+                            <br>
+                            <b>En Stock 7 unidades</b>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        Comprar
+                                    </button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        Agregar Al Carrito
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                </div>
+                <div class="col-sm-12 col-md-6 col col-lg-4 col-xl-3">
+                    <div class="card mb-4 box-shadow">
+                        <div class="text-center">
+                            <img class="card-img-top thumbnail-product" src="img/comida de perro6.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                <div class="lead text-secondary fw-bold">
+                                    EN OFERTA
+                                </div>
+                            <br>
+                            <div class="lead text-danger">
+                                <span class="real-price fw-bold">
+                                    $50.000
+                                </span>
+                                <span class="ofert fw-bold">
+                                    $32.990
+                                </span>
+                            </div>
+                            <br>
+                            Royal Canin Alimento Seco Perro Adulto Hepatic
+                            <br>
+                            <b>Descripcion</b>
+                            <div class="text-truncate">
+                                Perros adultos con problemas hepáticos. Prescripción
+                            </div>
+                            <br>
+                            <b>En Stock 10 unidades</b>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        Comprar
+                                    </button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        Agregar Al Carrito
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                </div>
+                <div class="col-sm-12 col-md-6 col col-lg-4 col-xl-3">
+                    <div class="card mb-4 box-shadow">
+                        <div class="text-center">
+                            <img class="card-img-top thumbnail-product" src="img/comida de gato1.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                <div class="lead text-secondary fw-bold">
+                                    EN OFERTA
+                                </div>
+                            <br>
+                            <div class="lead text-danger">
+                                <span class="real-price fw-bold">
+                                    $12.990
+                                </span>
+                                <span class="ofert fw-bold">
+                                    $7.990
+                                </span>
+                            </div>
+                            <br>
+                            Proplan Fancy Feast Terrine Pavo alimento húmedo para gatos
+                            <br>
+                            <b>Descripcion</b>
+                            <div class="text-truncate">
+                                Fancy Feast Terrine Pavo
+                            </div>
+                            <br>
+                            <b>En Stock 25 unidades</b>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        Comprar
+                                    </button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        Agregar Al Carrito
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                </div>
+                <div class="col-sm-12 col-md-6 col col-lg-4 col-xl-3">
+                    <div class="card mb-4 box-shadow">
+                        <div class="text-center">
+                            <img class="card-img-top thumbnail-product" src="img/comida de gato2.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                <div class="lead text-secondary fw-bold">
+                                    EN OFERTA
+                                </div>
+                            <br>
+                            <div class="lead text-danger">
+                                <span class="real-price fw-bold">
+                                    $37.000
+                                </span>
+                                <span class="ofert fw-bold">
+                                    $23.990
+                                </span>
+                            </div>
+                            <br>
+                            Royal Canin adulto Satiety Support alimento para gato
+                            <br>
+                            <b>Descripcion</b>
+                            <div class="text-truncate">
+                                Satiety Feline
+                            </div>
+                            <br>
+                            <b>En Stock 14 unidades</b>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        Comprar
+                                    </button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        Agregar Al Carrito
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                </div>
+                <div class="col-sm-12 col-md-6 col col-lg-4 col-xl-3">
+                    <div class="card mb-4 box-shadow">
+                        <div class="text-center">
+                            <img class="card-img-top thumbnail-product" src="img/juguete de gato1.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                <div class="lead text-secondary fw-bold">
+                                    EN OFERTA
+                                </div>
+                            <br>
+                            <div class="lead text-dark">
+                                <span class="real fw-bold">
+                                    $4.000
+                                </span>
+                            </div>
+                            <br>
+                            Natura seagrass roll & ball pack rollo+pelota
+                            <br>
+                            <b>Descripcion</b>
+                            <div class="text-truncate">
+                                Pack Rollo, pelota y plumas para gatos con catnip, algas y sonido.
+                            </div>
+                            <br>
+                            <b>En Stock 5 unidades</b>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        Comprar
+                                    </button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        Agregar Al Carrito
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                </div>
+                <div class="col-sm-12 col-md-6 col col-lg-4 col-xl-3">
+                    <div class="card mb-4 box-shadow">
+                        <div class="text-center">
+                            <img class="card-img-top thumbnail-product" src="img/juguete de gato2.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                <div class="lead text-secondary fw-bold">
+                                    EN OFERTA
+                                </div>
+                            <br>
+                            <div class="lead text-dark">
+                                <span class="real fw-bold">
+                                    $6.000
+                                </span>
+                            </div>
+                            <br>
+                            Cuerda simple con pelota unidad
+                            <br>
+                            <b>Descripcion</b>
+                            <div class="text-truncate">
+                                Juguete de cuerda extra resistente en forma de bola
+                            </div>
+                            <br>
+                            <b>En Stock 13 unidades</b>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        Comprar
+                                    </button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        Agregar Al Carrito
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                </div>
+                <div class="col-sm-12 col-md-6 col col-lg-4 col-xl-3">
+                    <div class="card mb-4 box-shadow">
+                        <div class="text-center">
+                            <img class="card-img-top thumbnail-product" src="img/juguete de perro1.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                <div class="lead text-secondary fw-bold">
+                                    EN OFERTA
+                                </div>
+                            <br>
+                            <div class="lead text-danger">
+                                <span class="real-price fw-bold">
+                                    $5.000
+                                </span>
+                                <span class="ofert fw-bold">
+                                    $2.500
+                                </span>
+                            </div>
+                            <br>
+                            Ida - colores surtidos
+                            <br>
+                            <b>Descripcion</b>
+                            <div class="text-truncate">
+                                Juguete de goma que promueve la limpieza de dientes
+                            </div>
+                            <br>
+                            <b>En Stock 20 unidades</b>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        Comprar
+                                    </button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                                        Agregar Al Carrito
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- FOOTER -->
+    <footer>
+        <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+            <img class="logo2" src="img/logo.png" alt="">
+            <p>Somos una empresa dedicada a la creación de soluciones digitales para empresas y organizaciones.</p>
+            </div>
+            <div class="col-md-4">
+            <h4>Contáctanos</h4>
+            <p>Av. Matta #123<br>
+                Ciudad de Santiago, Chile<br>
+                Teléfono: 123456789<br>
+                Correo electrónico: info@ejemplo.com</p>
+            </div>
+            <div class="col-md-4">
+            <h4>Síguenos</h4>
+            <ul class="redes-sociales">
+                <li><a href="https://www.facebook.com/"><img src="img/facebook.png" alt="Facebook"></a></li>
+                <li><a href="https://twitter.com/?lang=es"><img src="img/twitter.png" alt="Twitter"></a></li>
+                <li><a href="https://www.instagram.com/"><img src="img/instagram.png" alt="Instagram"></a></li>
+            </ul>
+            </div>
+        </div>
+        </div>
+        <div class="copy">
+        <div class="container">
+            <p>&copy; 2023 Ejemplo. Todos los derechos reservados.</p>
+        </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>

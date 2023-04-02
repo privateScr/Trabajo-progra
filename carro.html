@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Venta de productos animales">
+    <meta name="author" content="Grupo n1">
+    <title>PetMania</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="icon" href="img/Perro icono.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/java.js"></script>
+</head>
+<body>
+<!-- NAV BAR SUPERIOR CON LOGO -->
+    <header id="header">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <img class="logo" src="img/logo.png" alt="">
+            <a class="navbar-brand" href="Inicio.html">PetMania</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Inicio.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="Nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="Registro.html">Registro</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="Ingresar.html">Iniciar Sesion</a>
+            </li>
+            </ul>
+            <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+        </div>
+        </div>
+    </nav>
+    </header>
+
+    <!-- TABLA CARRITO DE COMPRAS -->
+    <main role="main">
+        <div class="container">
+            <section class="text-center">
+                <h1>carrito de compras</h1>
+                <br>
+                <table class="table table-hover">
+                    <thead>
+                        <th scope="col">#</th>
+                        <th scope="col" class="d-none d-lg-block d-lg-table-cell">Categoria</th>
+                        <th scope="col">Producto</th>
+                        <th scope="col" class="text-end">Precio</th>
+                        <th scope="col" class="text-end" class="d-none d-lg-block d-lg-table-cell">%Subscriptor</th>
+                        <th scope="col" class="text-end" class="d-none d-lg-block d-lg-table-cell">%Oferta</th>
+                        <th scope="col" class="text-end" class="d-none d-lg-block d-lg-table-cell">%Desc Total</th>
+                        <th scope="col" class="text-end" class="d-none d-lg-block d-lg-table-cell">Descuentos</th>
+                        <th scope="col" class="text-end">Precio a pagar</th>
+                        <th scope="col">Opciones</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">1234</td>
+                            <td scope="col" class="d-none d-lg-block d-lg-table-cell">Perros</td>
+                            <td scope="col">Saco Royal Canin 3kg</td>
+                            <td scope="col" class="text-end">$8.000</td>
+                            <td scope="col" class="text-end">5%</td>
+                            <td scope="col" class="text-end">10%</td>
+                            <td scope="col" class="text-end">15%</td>
+                            <td scope="col" class="text-end">$1.200</td>
+                            <td scope="col" class="text-end">$6.800</td>
+                            <td scope="col">
+                                <button type="button" href="#" class="btn btn-primary btn-sm">
+                                    Eliminar
+                                </button>
+                            </td>
+                        </tr>
+                        <tfoot>
+                            <tr>
+                                <td scope="row"></td>
+                                <td scope="col" class="d-none d-lg-block d-lg-table-cell"></td>
+                                <td scope="col"class="text-end"></td>
+                                <td scope="col"class="text-end"></td>
+                                <td scope="col"class="text-end"></td>
+                                <td scope="col"class="text-end"></td>
+                                <td scope="col"class="text-end"></td>
+                                <td scope="col"class="text-end">Precio Sin IVA</td>
+                                <td scope="col"class="text-end">$13.403</td>
+                                <td scope="col"></td>
+                            </tr>
+                            <tr>
+                                <td scope="row"></td>
+                                <td scope="col" class="d-none d-lg-block d-lg-table-cell"></td>
+                                <td scope="col" class="text-end"></td>
+                                <td scope="col" class="text-end"></td>
+                                <td scope="col" class="text-end"></td>
+                                <td scope="col" class="text-end"></td>
+                                <td scope="col" class="text-end"></td>
+                                <td scope="col" class="text-end">Valor Del IVA (19%)</td>
+                                <td scope="col" class="text-end">$2.547</td>
+                                <td scope="col"></td>
+                            </tr>
+                            <td scope="row"></td>
+                            <td scope="col" class="d-none d-lg-block d-lg-table-cell"></td>
+                            <td scope="col"></td>
+                            <td scope="col" class="text-end"></td>
+                            <td scope="col" class="text-end"></td>
+                            <td scope="col" class="text-end"></td>
+                            <td scope="col" class="text-end"></td>
+                            <td scope="col" class="text-end">Total A Pagar</td>
+                            <td scope="col" class="text-end">$15.590</td>
+                            <td scope="col"></td>
+                        </tfoot>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>
